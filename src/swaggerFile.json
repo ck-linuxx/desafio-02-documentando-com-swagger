@@ -1,0 +1,41 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Atlas",
+    "description": "Esta é uma documentação sobre o Atlas API",
+    "version": "1.0.0",
+    "contact": {
+      "email": "amorimclark@gmail.com"
+    }
+  },
+  "paths": {
+    "/users": {
+      "post": {
+        "tags": ["Users"],
+        "sumary": "Create user",
+        "description": "Cria um novo usuário",
+        "requestBody": {
+          "description": "Campos obrigatórios para criação de usuário",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          
+        }
+      }
+    }
+  }
+}
