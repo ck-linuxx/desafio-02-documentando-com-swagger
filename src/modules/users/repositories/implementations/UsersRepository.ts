@@ -1,3 +1,4 @@
+import { response } from "express";
 import { User } from "../../model/User";
 import { IUsersRepository, ICreateUserDTO } from "../IUsersRepository";
 
@@ -35,11 +36,15 @@ class UsersRepository implements IUsersRepository {
   }
 
   findById(id: string): User | undefined {
-    // Complete aqui
+    const userIndex = this.users.find((user) => user.id === id)
+
+    return userIndex  
   }
 
   findByEmail(email: string): User | undefined {
-    // Complete aqui
+    const userEmail = this.users.find((user) => user.email === email)
+
+    return userEmail  
   }
 
   turnAdmin(receivedUser: User): User {
