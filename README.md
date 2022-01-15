@@ -22,8 +22,8 @@
 #### Testes do repositório
 - [x] Should be able to create new users
 - [x] Should be able to list all users
-- [] Should be able to find user by ID
-- [] Should be able to find user by e-mail address
+- [x] Should be able to find user by ID
+- [x] Should be able to find user by e-mail address
 - [] Should be able to turn an user as admin
 
 ##### Testes de useCases
