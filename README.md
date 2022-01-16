@@ -27,8 +27,8 @@
 - [x] Should be able to turn an user as admin
 
 ##### Testes de useCases
-- [] Should be able to create new users
-- [] Should not be able to create new users when email is already taken
+- [x] Should be able to create new users
+- [x] Should not be able to create new users when email is already taken
 - [] Should be able to turn an user as admin
 - [] Should not be able to turn a non existing user as admin
 - [] Should be able to get user profile by ID
