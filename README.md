@@ -33,6 +33,6 @@
 - [x] Should not be able to turn a non existing user as admin
 - [x] Should be able to get user profile by ID
 - [x] Should not be able to show profile of a non existing user
-- [] Should be able to list all users
-- [] Should not be able to a non admin user get list of all users
+- [x] Should be able to list all users
+- [x] Should not be able to a non admin user get list of all users
 - [] Should not be able to a non existing user get list of all users
