@@ -35,4 +35,4 @@
 - [x] Should not be able to show profile of a non existing user
 - [x] Should be able to list all users
 - [x] Should not be able to a non admin user get list of all users
-- [] Should not be able to a non existing user get list of all users
+- [x] Should not be able to a non existing user get list of all users
